@@ -1,0 +1,10 @@
+<!--pages/cooperate/index.wxml-->
+<import src="../../templates/footer.wxml"/>
+<view class='coo'>
+  <text class='tip'>【服务类别】</text>
+  <block wx:for="{{coolist}}" wx:for-item="item" wx:key>
+     <image src="{{item.cooimg}}" class='coo-img'></image>
+     <text class='coo-title'>{{item.title}}</text>
+  </block>
+  <template is="footer"/>
+</view>

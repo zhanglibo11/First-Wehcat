@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<import src="../../templates/footer.wxml"/>
+<view class="container">
+  <swiper autoplay="true" duration="1000" interval='2000'>
+    <swiper-item>
+      <image src="../../images/banner.png" class='slide-image' />
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/banner.png" class='slide-image' />
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/banner.png" class='slide-image' />
+    </swiper-item>
+  </swiper>
+
+  <view class='sub_nav'>
+
+    <view class='about' bindtap='about'>
+      <image src='../../images/about.png' class='sub_nav_img'></image>
+      <view class='zhongqi'>
+        <text>中汽会展</text>
+        <text>About Us</text>
+      </view>
+    </view>
+
+    <view class='about1' bindtap='touch'>
+      <image src='../../images/about.png' class='sub_nav_img'></image>
+      <view class='zhongqi'>
+        <text>商务合作</text>
+        <text>Service</text>
+      </view>
+    </view>
+    
+  </view>
+  <text class='title'>精品案例\n Excellent Cases</text>
+  <view class="case-list">
+  <block wx:for="{{caselist}}" wx:key="name" wx:for-item="item">
+    <view class="case-item" data-caseid="{{item.caseid}}" bindtap='godetail'>  
+        <view class="weui-grid__icon">  
+          <image src=" {{item.caseimg}}" mode="scaleToFill" />  
+        </view>  
+        <text class="weui-grid__label">{{item.title}}</text>  
+    </view>
+   </block>
+  </view> 
+
+  <text class='title1'>联系我们\n Contact Us</text>
+  <view class='conview-img' bindtap='contact'>
+    <image src='../../images/contact-img.jpg' class='contact-img'></image>
+  </view>
+  
+  <!-- 分割线 -->
+
+  <template is="footer"/>
+</view>

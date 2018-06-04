@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/anli/index",
+    "pages/contact/index",
+    "pages/description/index",
+    "pages/cooperate/index"
+  ],
+  "window": {
+    "backgroundColor:": "#DCDCDC",
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#2E8B57",
+    "navigationBarTitleText": "中汽会展",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#2E8B57",
+    "color": "#ACADAF",
+    "selectedColor": "black",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath":"images/home.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/home/home",
+        "text":"首页"
+      
+      },
+      {
+        "selectedIconPath":   "images/contact.png",
+        "iconPath": "images/contact.png",
+        "pagePath": "pages/contact/index",
+        "text":"联系我们"
+
+      }
+    ]
+  }
+}

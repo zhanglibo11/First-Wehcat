@@ -1,0 +1,26 @@
+/* pages/cooperate/index.wxss */
+.coo{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.coo-img{
+   display: flex;
+   height: 250rpx;
+   width: 90%;
+   align-self: center;
+   margin-top:30rpx;
+}
+.coo-title{
+  align-self:center;
+  font-size:30rpx;
+  margin-top: 10rpx;
+}
+.tip{
+  margin-left:50rpx;
+  font-size:23rpx;
+  color: red;
+  margin-top:8rpx;
+}

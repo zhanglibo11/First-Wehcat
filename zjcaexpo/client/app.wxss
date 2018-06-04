@@ -1,0 +1,8 @@
+/**app.wxss**/
+@import "./templates/footer.wxss";
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family:'\5b8b\4f53';
+  box-sizing: border-box;
+} 

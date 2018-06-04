@@ -1,0 +1,14 @@
+<!--pages/anli/index.wxml-->
+<import src="../../templates/footer.wxml"/>
+<view class="detail-container">
+    <image src="{{caseimg}}" class='detail-img'></image>
+    <text class='detail-title'>{{title}}</text>
+    <text class='detail-info'>{{info}}</text>
+  <view class='footer'>
+    <image src='../../images/logo.png' class='logo'></image>
+    <view class='company'>
+      <text class='company-name-cn'>浙江中汽会展有限公司</text>
+      <text class='company-name-en'>China National Automobile Conventions & Exhibition Zhejiang CO LTD</text>
+    </view>
+  </view>
+</view>

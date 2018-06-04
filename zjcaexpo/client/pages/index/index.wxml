@@ -1,0 +1,3 @@
+<view class='wel-container'>
+  <image class="wel" src="../../images/wel.jpg"></image>
+</view>

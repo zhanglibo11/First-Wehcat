@@ -1,0 +1,35 @@
+<!--pages/contact/index.wxml-->
+<import src="../../templates/footer.wxml"/>
+<view class='con-container'>
+  <view  class='con'>
+   <text>联系我们</text>
+  </view>
+  <view class='contact'>
+      <view class='con-way' bindtap='call'>
+        <text class='phone'>电话:</text> <text class='phone'>13999989895</text><text class='phone'>(点击拨打)</text>
+      </view>
+      <view class='con-way'>
+        <text class='phone'>微信在线客服:</text>
+        <contact-button class='kf' size="12" style='right:20rpx;'></contact-button>
+        <contact-button class='kf' size="12" style='right:80rpx;'></contact-button>
+        <contact-button class='kf' size="12" style='right:120rpx;'></contact-button>
+        <contact-button class='kf' size="12" style='right:180rpx;'></contact-button>
+        <contact-button class='kf' size="12" style='right:240rpx;'></contact-button>
+        <contact-button class='kf' size="12" style='right:300rpx;'></contact-button>
+        <contact-button class='kf' size="12"></contact-button>
+        <image class="icon_kf" src="../../images/kefu.png"></image>
+      </view>
+      <view class='con-way'>
+        <text class='phone'>邮箱:</text><text class='phone'>13999989895@qq.com</text>
+      </view>
+  </view>
+  <map id='zjzq' latitude='30.323401' longitude='120.115494' scale='18' iconPath="../../images/location.png" markers='{{markers}}'></map>
+    <!-- <template is="footer"/> -->
+      <view class='footer'>
+    <image src='../../images/logo.png' class='logo'></image>
+    <view class='company'>
+      <text class='company-name-cn'>浙江中汽会展有限公司</text>
+      <text class='company-name-en'>China National Automobile Conventions & Exhibition Zhejiang CO LTD</text>
+    </view>
+  </view>
+</view>

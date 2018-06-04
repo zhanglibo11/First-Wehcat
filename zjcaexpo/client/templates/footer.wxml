@@ -1,0 +1,9 @@
+<template name='footer'>
+  <view class='footer'>
+    <image src='../../images/logo.png' class='logo'></image>
+    <view class='company'>
+      <text class='company-name-cn'>浙江中汽会展有限公司</text>
+      <text class='company-name-en'>China National Automobile Conventions & Exhibition Zhejiang CO LTD</text>
+    </view>
+  </view>
+</template>
